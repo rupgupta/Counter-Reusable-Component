@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3743312E229D1498000CD792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743312D229D1498000CD792 /* AppDelegate.swift */; };
-		37433130229D1498000CD792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743312F229D1498000CD792 /* ViewController.swift */; };
+		37433130229D1498000CD792 /* ShowCountersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743312F229D1498000CD792 /* ShowCountersVC.swift */; };
 		37433133229D1498000CD792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37433131229D1498000CD792 /* Main.storyboard */; };
 		37433135229D1499000CD792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37433134229D1499000CD792 /* Assets.xcassets */; };
 		37433138229D1499000CD792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37433136229D1499000CD792 /* LaunchScreen.storyboard */; };
 		37433143229D1499000CD792 /* Counter_Reusable_ComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37433142229D1499000CD792 /* Counter_Reusable_ComponentTests.swift */; };
 		3743314E229D1499000CD792 /* Counter_Reusable_ComponentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743314D229D1499000CD792 /* Counter_Reusable_ComponentUITests.swift */; };
+		3743315D229D30C7000CD792 /* CounterSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3743315C229D30C7000CD792 /* CounterSectionView.swift */; };
+		3743315F229D314D000CD792 /* CounterSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3743315E229D314D000CD792 /* CounterSectionView.xib */; };
+		37433161229D33B6000CD792 /* CounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37433160229D33B6000CD792 /* CounterCell.swift */; };
+		37433163229D33EC000CD792 /* CounterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37433162229D33EC000CD792 /* CounterCell.xib */; };
+		37433168229D43E1000CD792 /* AddTimerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37433167229D43E1000CD792 /* AddTimerAlert.swift */; };
+		3743316A229D43FB000CD792 /* AddTimerAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37433169229D43FB000CD792 /* AddTimerAlert.xib */; };
+		37C7430D229FC18500420F99 /* NewTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7430C229FC18500420F99 /* NewTimer.swift */; };
+		37C7431122A2B11400420F99 /* ProgressCircularAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7431022A2B11400420F99 /* ProgressCircularAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		3743312A229D1498000CD792 /* Counter Reusable Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter Reusable Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3743312D229D1498000CD792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3743312F229D1498000CD792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3743312F229D1498000CD792 /* ShowCountersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCountersVC.swift; sourceTree = "<group>"; };
 		37433132229D1498000CD792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37433134229D1499000CD792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37433137229D1499000CD792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		37433149229D1499000CD792 /* Counter Reusable ComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Counter Reusable ComponentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3743314D229D1499000CD792 /* Counter_Reusable_ComponentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter_Reusable_ComponentUITests.swift; sourceTree = "<group>"; };
 		3743314F229D1499000CD792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3743315C229D30C7000CD792 /* CounterSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterSectionView.swift; sourceTree = "<group>"; };
+		3743315E229D314D000CD792 /* CounterSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterSectionView.xib; sourceTree = "<group>"; };
+		37433160229D33B6000CD792 /* CounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCell.swift; sourceTree = "<group>"; };
+		37433162229D33EC000CD792 /* CounterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterCell.xib; sourceTree = "<group>"; };
+		37433167229D43E1000CD792 /* AddTimerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerAlert.swift; sourceTree = "<group>"; };
+		37433169229D43FB000CD792 /* AddTimerAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTimerAlert.xib; sourceTree = "<group>"; };
+		37C7430C229FC18500420F99 /* NewTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimer.swift; sourceTree = "<group>"; };
+		37C7431022A2B11400420F99 /* ProgressCircularAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircularAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,10 @@
 		3743312C229D1498000CD792 /* Counter Reusable Component */ = {
 			isa = PBXGroup;
 			children = (
+				37C7430A229FC14900420F99 /* Model */,
+				37433164229D433D000CD792 /* View */,
+				37C7430B229FC15E00420F99 /* Controller */,
 				3743312D229D1498000CD792 /* AppDelegate.swift */,
-				3743312F229D1498000CD792 /* ViewController.swift */,
 				37433131229D1498000CD792 /* Main.storyboard */,
 				37433134229D1499000CD792 /* Assets.xcassets */,
 				37433136229D1499000CD792 /* LaunchScreen.storyboard */,
@@ -123,6 +141,60 @@
 				3743314F229D1499000CD792 /* Info.plist */,
 			);
 			path = "Counter Reusable ComponentUITests";
+			sourceTree = "<group>";
+		};
+		3743315B229D1AAD000CD792 /* TableviewHeadersCells */ = {
+			isa = PBXGroup;
+			children = (
+				3743315C229D30C7000CD792 /* CounterSectionView.swift */,
+				3743315E229D314D000CD792 /* CounterSectionView.xib */,
+				37433160229D33B6000CD792 /* CounterCell.swift */,
+				37433162229D33EC000CD792 /* CounterCell.xib */,
+			);
+			path = TableviewHeadersCells;
+			sourceTree = "<group>";
+		};
+		37433164229D433D000CD792 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37433166229D437E000CD792 /* ViewControllers */,
+				37433165229D4358000CD792 /* Xibs */,
+				3743315B229D1AAD000CD792 /* TableviewHeadersCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37433165229D4358000CD792 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				37433167229D43E1000CD792 /* AddTimerAlert.swift */,
+				37433169229D43FB000CD792 /* AddTimerAlert.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		37433166229D437E000CD792 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3743312F229D1498000CD792 /* ShowCountersVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		37C7430A229FC14900420F99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37C7430C229FC18500420F99 /* NewTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37C7430B229FC15E00420F99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37C7431022A2B11400420F99 /* ProgressCircularAnimation.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +304,9 @@
 				37433138229D1499000CD792 /* LaunchScreen.storyboard in Resources */,
 				37433135229D1499000CD792 /* Assets.xcassets in Resources */,
 				37433133229D1498000CD792 /* Main.storyboard in Resources */,
+				3743315F229D314D000CD792 /* CounterSectionView.xib in Resources */,
+				3743316A229D43FB000CD792 /* AddTimerAlert.xib in Resources */,
+				37433163229D33EC000CD792 /* CounterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37433130229D1498000CD792 /* ViewController.swift in Sources */,
+				37433161229D33B6000CD792 /* CounterCell.swift in Sources */,
+				37433130229D1498000CD792 /* ShowCountersVC.swift in Sources */,
+				3743315D229D30C7000CD792 /* CounterSectionView.swift in Sources */,
+				37C7430D229FC18500420F99 /* NewTimer.swift in Sources */,
 				3743312E229D1498000CD792 /* AppDelegate.swift in Sources */,
+				37C7431122A2B11400420F99 /* ProgressCircularAnimation.swift in Sources */,
+				37433168229D43E1000CD792 /* AddTimerAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +512,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Counter Reusable Component/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CounterReusableComponent.Counter-Reusable-Component";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +531,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Counter Reusable Component/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CounterReusableComponent.Counter-Reusable-Component";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
